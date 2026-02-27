@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSMS Proposal - IoT Site Monitoring</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Smart Site Monitoring System (SSMS)</h1>
+      <p>
+        An IoT-Driven Solution for the Protection of Remote Archaeological Sites
+      </p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <button class="nav-btn active" data-section="abstract">Abstract</button>
+      <button class="nav-btn" data-section="background">Background</button>
+      <button class="nav-btn" data-section="problem-statement">Problem</button>
+      <button class="nav-btn" data-section="objectives">Objectives</button>
+      <button class="nav-btn" data-section="looting-crisis">Looting</button>
+      <button class="nav-btn" data-section="environmental-hazards">Hazards</button>
+      <button class="nav-btn" data-section="current-solutions">Current Solutions</button>
+      <button class="nav-btn" data-section="site-monitoring">Site Monitoring</button>
+      <button class="nav-btn" data-section="lab-safety">Lab Safety</button>
+      <button class="nav-btn" data-section="renewable-power">Power</button>
+      <button class="nav-btn" data-section="expected-impact">Impact</button>
+      <button class="nav-btn" data-section="costs">Costs</button>
+      <button class="nav-btn" data-section="conclusion">Conclusion</button>
+      <button class="nav-btn" data-section="resources">Resources</button>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+      <section id="abstract" class="section active">
+        <h2>Abstract</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Title: Integrated Smart Systems for Archaeological Site Protection</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>Integrated Smart Systems for Archaeological Site Protection and Laboratory Safety Using Renewable Energy</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Summary</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Archaeological research faces critical threats ranging from illegal looting to hazardous working conditions. Looting destroys the "contextual pages" of history by disrupting soil layers and critical data. Researchers operate in extreme environments with high temperatures, lack of renewable power, and exposure to flammable gases.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Proposed Solution</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>A multi-tiered technological solution: Smart Site Monitoring System with low-cost motion sensors powered by solar energy for real-time alerts against illegal digging, plus Smart Climate Control and gas detection systems for laboratory facilities.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Financial Analysis</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Integrated two-story facility: $235,000 to $500,000. Egypt implementation: 580,800 to 1,024,200 EGP. Transitioning from fossil-fuel generators to hybrid solar systems increases efficiency, reduces expenses, and ensures cultural heritage preservation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      </section>
+
+      <section id="background" class="section">
+        <h2>Background on Archaeology</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>What is Archaeology?</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Archaeology is the scientific study of humanity's past through the recovery and analysis of material culture. Archaeologists carefully excavate sites and use advanced technology to analyze artifacts, aiming to piece together the history of how people lived, worked, and celebrated.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Why It Matters</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>These objects and locations serve as a "history book" for mankind. Understanding the past helps us learn from historical successes and mistakes, preserve cultural heritage, understand human development, and connect present communities with their ancestral roots.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="problem-statement" class="section">
+        <h2>The Core Problem</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Looting Crisis</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>One major problem archaeologists face is <strong>looting</strong> — illegal digging and theft of artifacts from archaeological sites. Looting destroys important historical information and makes it harder to understand the past.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>External Threats (Looting)</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Archaeological sites worldwide are under constant threat from illegal digging and theft for the black market. Looting destroys vital historical context — location, depth, and surrounding materials — that archaeologists need to understand the past.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Operational & Environmental Hazards</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Lab technicians and archaeologists work in extreme conditions including dangerously high temperatures, hazardous gases, and remote locations with limited resources.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="objectives" class="section">
+        <h2>Research Objectives</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Site Protection</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Design a Smart Site Monitoring System using motion and vibration sensors to detect and alert authorities to illegal activities in real-time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Facility Safety</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Implement smart climate control and gas detection systems within field laboratories to automate protection of both personnel and artifacts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Sustainable Power</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Transition archaeological missions to solar energy to ensure continuous, clean, and cost-effective power supply.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="looting-crisis" class="section">
+        <h2>The Crisis of Archaeological Looting</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Looting as a Global Threat</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Looting remains a primary threat to global heritage, driven by demand for artifacts on the black market and private collections. The damage is far more extensive than simple theft; it destroys historical context.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Why It's Catastrophic</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>When looters dig randomly, they destroy <strong>stratigraphy</strong> — the location, depth, and materials of an artifact — which provides critical clues. Losing this data is like ripping pages out of a history book.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>The Impact</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Archaeological sites are irreplaceable. Once destroyed by looting, contextual information is lost forever, preventing archaeologists from fully understanding artifacts and their place in history.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="environmental-hazards" class="section">
+        <h2>Environmental Hazards</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>High Temperatures</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>In desert biomes, extreme heat leads to artifact decay and machinery malfunction. It poses severe health risks like heatstroke and significantly reduces operational efficiency.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Toxic and Flammable Gases</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Working in caves, labs, and confined spaces exposes personnel to methane, carbon monoxide, and radon. These cause respiratory damage and can lead to fires and explosions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Energy Scarcity</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Most remote sites lack renewable power sources. Missions rely on expensive, non-renewable petrol generators that are difficult and costly to transport.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="current-solutions" class="section">
+        <h2>Evaluation of Current Solutions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Physical Security</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Guards and fencing are effective but expensive and often impossible to implement at every remote site.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Manual Monitoring</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Traditional CCTV and motion detectors require constant human supervision and may not provide real-time alerts in isolated areas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Technological Monitoring</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Drones and satellites identify damage after it occurs rather than preventing it in real-time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Manual Safety Protocols</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Current measures depend on human error and don't respond fast enough to sudden environmental shifts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="site-monitoring" class="section">
+        <h2>Smart Site Monitoring System</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Detection Layer</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Small motion sensors and vibration detectors are strategically buried around sensitive areas to detect digging or unauthorized movement.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Communication Layer</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Sensors connect to a central device powered by solar energy, ensuring functionality in off-grid locations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Response Layer</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Unusual vibrations trigger real-time alerts to local authorities or site managers.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Visual Evidence</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>The system automatically activates cameras or drones to record activity for legal evidence.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="lab-safety" class="section">
+        <h2>Automated Laboratory Safety</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Smart Climate Control</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Temperature detectors automatically activate air conditioning and fans at maximum power when heat reaches critical levels.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Hazardous Gas Mitigation</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Smoke and gas detectors automatically open windows, activate extraction fans, and remove gases from the room.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Reinforced Infrastructure</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Entry points secured with large "garage-sized" metal doors made of stainless steel or titanium resistant to explosions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Access Control</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Face recognition cameras scan individuals against a whitelist, ensuring only authorized personnel enter sensitive areas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="renewable-power" class="section">
+        <h2>Renewable Power Integration</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Primary Source: Solar Panels</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Solar panels power everything from laptops and GPS devices to ventilation systems and scanners.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Storage: High-Capacity Batteries</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Lithium-ion batteries store energy for night use. Traditional generators kept for emergency backup only.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Why This Works</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Remote operation, real-time alerts, lower cost than full-time guards, evidence collection capability, eliminates fossil fuel transport costs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="expected-impact" class="section">
+        <h2>Expected Impact</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Real-time Prevention</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Shifts focus from discovering damage to real-time intervention.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Cost Efficiency</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Cheaper than hiring full-time security guards.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>History Preservation</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Saves stratigraphic context for understanding the past.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Safety & Sustainability</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Reduces medical incidents, eliminates petrol transport costs, automated systems reduce need for 24/7 manual labor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="costs" class="section">
+        <h2>Cost Analysis</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Total Project Cost</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Estimated comprehensive implementation: <strong>$50,000 - $75,000</strong> for initial deployment across multiple sites.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Hardware Costs</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>Motion/Vibration Sensors:</strong> $5,000-$8,000 | <strong>Solar Panels:</strong> $8,000-$12,000 | <strong>Lithium Batteries:</strong> $6,000-$10,000 | <strong>Central Hub & Networking:</strong> $4,000-$6,000 | <strong>Climate Control:</strong> $12,000-$15,000 | <strong>Safety Doors:</strong> $8,000-$12,000 | <strong>Face Recognition System:</strong> $5,000-$8,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Installation & Setup</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>Labor & Installation:</strong> $2,000-$5,000 | <strong>Software Development:</strong> $3,000-$7,000 | <strong>Training & Documentation:</strong> $1,000-$3,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Operational Savings</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>Annual Guard Costs (Avoided):</strong> $40,000-$60,000 | <strong>Fuel Costs (Eliminated):</strong> $3,000-$5,000/year | <strong>Equipment Loss Prevention:</strong> $5,000-$15,000/year</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Return on Investment (ROI)</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>Initial investment breaks even in 1-2 years through eliminated guard costs and fuel expenses, with additional savings from prevented artifact losses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="conclusion" class="section">
+        <h2>Conclusion</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>The Smart System Advantage</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>This integrated Smart Site Monitoring System represents a transformative approach to protecting archaeological heritage. Unlike traditional methods that respond to damage after it occurs, this system actively prevents looting through real-time detection and alerts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Multi-Dimensional Protection</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>By combining site monitoring with automated laboratory safety and renewable power, this system addresses all major challenges archaeologists face: looting, environmental hazards, and operational sustainability.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Scalability & Adaptability</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>The modular design allows deployment in diverse environments from desert sites to cave systems, with components adaptable to specific regional threats and climate conditions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Long-term Impact</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>By reducing looting and preserving dangerous artifacts, this system ensures that future generations can study and learn from our shared human heritage. The cost-effectiveness ensures widespread adoption across global archaeological operations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="section">
+        <h2>Resources & References</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Key Research & Standards</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>ISO 27001:</strong> Information security management system standards | <strong>NIST Cybersecurity Framework:</strong> For secure IoT implementations | <strong>IEC 61508:</strong> Functional safety of electrical/electronic/programmable electronic safety-related systems</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Archaeological Heritage Protection</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>UNESCO World Heritage Convention:</strong> Framework for protecting sites of outstanding universal value | <strong>ICOMOS Charter:</strong> Principles for archaeological site conservation</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Technology & Engineering</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>Solar Energy Handbook:</strong> Best practices for remote power generation | <strong>IoT Security Best Practices:</strong> From IEEE and ACM | <strong>Automated Climate Control:</strong> ASHRAE standards for environmental monitoring</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Implementation Tools</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p><strong>Arduino/Raspberry Pi:</strong> Open-source hardware for sensor integration | <strong>Python/Node.js:</strong> For backend system development | <strong>TensorFlow:</strong> For machine learning-based threat detection | <strong>Database:</strong> PostgreSQL/MongoDB for event logging</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <span>Related Literature</span>
+              <span class="accordion-icon">▼</span>
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-body">
+                <p>"Looting and the World's Archaeological Heritage" (various academic journals) | "IoT Applications in Cultural Heritage Protection" (IEEE publications) | "Remote Site Monitoring Using Wireless Sensor Networks" (Academic publications)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+      <h3>SSMS Proposal</h3>
+      <p>An IoT-Driven Monitoring System</p>
+      <p>&copy; 2026 PRISMA TEAM. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // Navigation
+      const navButtons = document.querySelectorAll(".nav-btn");
+      const sections = document.querySelectorAll(".section");
+
+      navButtons.forEach((button) => {
+        button.addEventListener("click", function () {
+          const targetSection = this.getAttribute("data-section");
+
+          // Remove active class from all buttons and sections
+          navButtons.forEach((btn) => btn.classList.remove("active"));
+          sections.forEach((section) => section.classList.remove("active"));
+
+          // Add active class to clicked button and target section
+          this.classList.add("active");
+          document.getElementById(targetSection).classList.add("active");
+
+          // Scroll to top
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+
+      // Accordion Toggle Function
+      function toggleAccordion(header) {
+        const content = header.nextElementSibling;
+        const isActive = header.classList.contains("active");
+
+        // Close all accordions in the same section
+        const accordion = header.closest(".accordion");
+        if (accordion) {
+          accordion.querySelectorAll(".accordion-header").forEach((h) => {
+            h.classList.remove("active");
+          });
+          accordion.querySelectorAll(".accordion-content").forEach((c) => {
+            c.classList.remove("active");
+          });
+        }
+
+        // Open clicked accordion if it wasn't active
+        if (!isActive) {
+          header.classList.add("active");
+          content.classList.add("active");
+        }
+      }
+
+      // Add smooth scroll behavior
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
